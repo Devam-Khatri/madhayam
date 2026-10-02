@@ -2931,3 +2931,61 @@ body.gallery-lightbox-open { overflow:hidden; }
 .gallery-simple-year-head span { display: none; }
 .gallery-simple-photo { min-height: 0; }
 .gallery-simple-photo img { display:block; opacity:1; visibility:visible; }
+
+
+/* 404 mobile containment */
+@media (max-width: 700px) {
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .error-page {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .error-page .wrap-narrow {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .error-page .error-code {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(5rem, 24vw, 8rem);
+    line-height: .9;
+    letter-spacing: -0.04em;
+    overflow: hidden;
+  }
+
+  .error-page h1,
+  .error-page .lede,
+  .error-page .error-note {
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .error-page .cta-actions {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .error-page .cta-actions .btn,
+  .error-page .cta-actions .text-link {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
