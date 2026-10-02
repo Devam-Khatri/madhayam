@@ -1048,7 +1048,7 @@ body.nav-open .side-nav {
   flex: 1;
 }
 
-/* ---------- 16b. Online donation panel (Razorpay) ---------- */
+/* ---------- 16b. Online donation panel (hosted Razorpay) ---------- */
 
 .pay-panel {
   background: #fff;
@@ -1068,81 +1068,19 @@ body.nav-open .side-nav {
   margin-bottom: 22px;
 }
 
-.pay-form {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr auto;
-  gap: 16px;
-  align-items: start;
-}
-
-.pay-form .form-field .field-err {
-  margin-bottom: 0;
-}
-
-.amount-input {
-  display: flex;
-  align-items: center;
-  border: 1.5px solid var(--line);
-  border-radius: 10px;
-  background: var(--cream-alt);
-  transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-.amount-input:focus-within {
-  border-color: var(--stripe);
-  box-shadow: 0 0 0 4px rgba(172, 59, 43, 0.12);
-}
-
-.amount-input span {
-  padding-left: 14px;
-  font-weight: 700;
-  color: var(--ink-soft);
-}
-
-.amount-input input {
-  border: 0;
-  background: transparent;
-  box-shadow: none;
-  padding-left: 8px;
-}
-
-.amount-input input:focus {
-  box-shadow: none;
-}
-
 .pay-submit {
-  margin-top: 25px;
+  margin-top: 6px;
   white-space: nowrap;
 }
 
-.pay-status {
-  margin: 16px 0 0;
-  font-size: 15px;
-  min-height: 1.2em;
-  color: var(--ink-soft);
-}
-
-.pay-status.is-error {
-  color: var(--maroon);
-}
-
-.pay-status.is-success {
-  color: var(--green-mid);
-  font-weight: 700;
-}
-
 .pay-fine {
-  margin: 8px 0 0;
+  margin: 12px 0 0;
   font-size: 13px;
   color: var(--ink-soft);
 }
 
 @media (max-width: 760px) {
-  .pay-form {
-    grid-template-columns: 1fr;
-  }
   .pay-submit {
-    margin-top: 0;
     width: 100%;
   }
 }
