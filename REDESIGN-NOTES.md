@@ -25,3 +25,10 @@
 - Simplified surfaces, shadows, radii and motion; retained clear hover, active and keyboard-focus states.
 - Left the existing favicon, metadata, legal pages, custom 404, social links and WhatsApp action intact.
 - Checked local links, cross-page anchors, image alt attributes, meta descriptions, skip links, CSS brace balance and JavaScript syntax.
+
+## Welcoming pass (October 2026)
+- Added section 31 at the end of `css/styles.css`; it only restyles. Delete that section to roll back.
+- Warm cream/apricot/sage palette, one terracotta accent, softened Fraunces (SOFT axis) on all pages.
+- Hero and sub-page headers are now light and sunlit; the photo sits in a soft arch.
+- Pill buttons and nav, rounded tinted cards, round number badges, softer footer edge.
+- HTML content and structure unchanged; the only HTML edit is the Google Fonts URL (adds the SOFT axis).
